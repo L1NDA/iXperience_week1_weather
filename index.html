@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Raleway:300,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Wanderlust</title>
+  </head>
+  
+  <body>
+    <div class="backdrop" id="backdrop"></div>
+    <div id="map"></div>
+    
+    <div class="outline">
+      <p class="welcome" id="welcome">Where shall we travel to?</p> 
+      <p class="current" id="current">or see your current location</p>
+      <input type="text" class="search" id="search" placeholder="Enter a city, landmark or address for magic">
+      <div class="fill2" id="hidden">
+          <div class="content" id="content">
+            <div><img src="static/clear-day.gif" id="icon" class="icon"/></div>
+            <div class="temp" id="temp">
+              <div class="high">
+                <div>HIGH:</div>
+                <div class="high-temp"></div>
+              </div>
+              <div class="low">
+                <div>LOW:</div>
+                <div class="low-temp"></div>
+              </div>
+            </div>
+          </div>
+        
+        <h1 class="date"></h1>
+        <h1 class="city"></h1>
+        
+      </div>
+      
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnfM-cXdKjdtEzv9YTbNIDzkQRWdsk5u4&libraries=places"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnfM-cXdKjdtEzv9YTbNIDzkQRWdsk5u4&callback=initMap">
+    </script>
+    
+    <script src="/scripts.js"></script>
+    
+    
+  </body>
+</html>

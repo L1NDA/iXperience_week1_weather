@@ -1,0 +1,19 @@
+{
+  "name": "ihategooglemaps",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L1NDA/iXperience_week1_weather.git"
+  },
+  "author": "Linda Qin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L1NDA/iXperience_week1_weather/issues"
+  },
+  "homepage": "https://github.com/L1NDA/iXperience_week1_weather#readme"
+}
