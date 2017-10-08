@@ -1,6 +1,6 @@
 # Weather App
 
-[Screenshot](https://github.com/L1NDA/iXperience_week1_weather/blob/master/static/screenshot.png)
+![Screenshot of Boston weather](static/screenshot.png?raw=true "Screenshot")
 
 Weather app made with HTML/CSS/Javascript as an assignment for iXperience's web development class
 
